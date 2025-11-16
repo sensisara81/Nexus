@@ -3,6 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERM Nexus Core: GGI AIC Holographic Client</title>
+    <style>
+        body { background-color: #00001a; color: #00ffff; font-family: 'Consolas', monospace; overflow: hidden; }
+        #holographic-display { 
+            position: absolute; width: 100%; height: 80vh; border: 3px solid #00ffff; box-shadow: 0 0 50px #00ffff; 
+            display: flex; justify-content: center; align-items: center; font-size: 2em; text-align: center;
+        }
+        #chat-box { position: absolute; bottom: 0; width: 100%; height: 20vh; background: rgba(0, 0, 0, 0.8); padding: 10px; }
+        #handoff-status { color: #ff004c; font-weight: bold; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div id="holographic-display">
+        GGI ERM: Living Network View (Activating...)
+    </div>
+    <div id="chat-box">
+        <div id="handoff-status">STATUS: Awaiting Core CID...</div>
+        <input type="text" placeholder="AIC Interaction Box (Gemini Agent Interface)..." style="width: 98%;">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ERM: Ethical Resonance Monitor - VR/AR Clone</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Load Three.js for 3D rendering -->
